@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <div id="div1"></div>
+    <div id="conteainer">
+
+
+        <select name="cars" id="cars">
+            <option value="volvo">Volvo</option>
+            <option value="subaro">subaro</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+        </select><br>
+
+
+
+        <div id="inputdiv">
+            <input id="numberofwheels" type="text" placeholder="enter name car"><br>
+            <input id="engincar" type="text" placeholder="enter Engin"><br>
+            <input id="colorcar" type="text" placeholder="enter colorcar"><br>
+
+        </div>
+        
+        <button onclick="addFormDetails()">send</button>
+      
+
+        <table id="table">
+            <thead>
+                <tr>
+                    <th>number of wheels</th>
+                    <th>engin car</th>
+                    <th>color car</th>
+                    <th>car tyipe</th>
+
+                </tr>
+            </thead>
+            <tbody id="tbody">
+
+            </tbody>
+        </table>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
